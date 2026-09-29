@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agência Criativa Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__logo">Agência<span class="header__logo-accent">Criativa</span></div>
+
+    <input type="checkbox" id="menu-toggle" class="header__menu-toggle">
+    <label for="menu-toggle" class="header__menu-icon">&#9776;</label>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+        <li class="nav__item"><a class="nav__link" href="#sobre">Sobre Nós</a></li>
+        <li class="nav__item"><a class="nav__link" href="#servicos">Serviços</a></li>
+        <li class="nav__item"><a class="nav__link" href="#depoimentos">Depoimentos</a></li>
+        <li class="nav__item"><a class="nav__link" href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="home">
+      <div class="home__content">
+        <h1 class="home__title">Transformamos ideias em experiências digitais</h1>
+        <p class="home__text">Somos a Agência Criativa Web: design, estratégia e tecnologia em um só lugar.</p>
+        <a href="#contato" class="btn btn--primary">Fale com a gente</a>
+      </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+      <h2 class="sobre__title">Sobre Nós</h2>
+      <p class="sobre__text">
+        A Agência Criativa Web nasceu para ajudar marcas a se destacarem no ambiente digital.
+        Unimos design centrado no usuário, código limpo e estratégia de negócio para entregar
+        projetos que realmente convertem. Valorizamos transparência, colaboração e resultado.
+      </p>
+    </section>
+
+    <section id="servicos" class="servicos">
+      <h2 class="servicos__title">Nossos Serviços</h2>
+      <div class="servicos__grid">
+        <article class="card">
+          <h3 class="card__title">Design UI/UX</h3>
+          <p class="card__text">Interfaces intuitivas e visualmente consistentes.</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">Desenvolvimento Web</h3>
+          <p class="card__text">Sites e sistemas responsivos, rápidos e escaláveis.</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">Identidade Visual</h3>
+          <p class="card__text">Marcas com personalidade e coerência em todos os pontos de contato.</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">Marketing Digital</h3>
+          <p class="card__text">Estratégias de conteúdo e performance para crescer online.</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">SEO</h3>
+          <p class="card__text">Otimização técnica e de conteúdo para melhor posicionamento.</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">Consultoria Digital</h3>
+          <p class="card__text">Diagnóstico e plano de ação para acelerar seus resultados.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="depoimentos" class="depoimentos">
+      <h2 class="depoimentos__title">Depoimentos</h2>
+      <div class="depoimentos__list">
+        <blockquote class="depoimentos__item">
+          "A Agência Criativa Web entregou um site incrível, no prazo e com resultado real."
+          <footer class="depoimentos__author">— Mariana Souza, Loja Bela Flor</footer>
+        </blockquote>
+        <blockquote class="depoimentos__item">
+          "Profissionalismo do início ao fim. Recomendo demais."
+          <footer class="depoimentos__author">— Carlos Lima, StartApp</footer>
+        </blockquote>
+        <blockquote class="depoimentos__item">
+          "Nosso tráfego dobrou depois do novo site responsivo."
+          <footer class="depoimentos__author">— Juliana Prado, Café Aroma</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="contato" class="contato">
+      <h2 class="contato__title">Contato</h2>
+      <div class="contato__wrapper">
+        <div class="contato__info">
+          <p><strong>Endereço:</strong> Av. Criativa, 123 — São Paulo, SP</p>
+          <p><strong>Telefone:</strong> (11) 99999-0000</p>
+          <p><strong>E-mail:</strong> contato@agenciacriativaweb.com</p>
+        </div>
+
+        <form class="form">
+          <label class="form__label" for="nome">Nome</label>
+          <input class="form__input" type="text" id="nome" name="nome" required>
+
+          <label class="form__label" for="email">E-mail</label>
+          <input class="form__input" type="email" id="email" name="email" required>
+
+          <label class="form__label" for="mensagem">Mensagem</label>
+          <textarea class="form__textarea" id="mensagem" name="mensagem" rows="5" required></textarea>
+
+          <button type="submit" class="btn btn--primary form__button">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">&copy; 2026 Agência Criativa Web. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
